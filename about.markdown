@@ -1,18 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Tsai-Chen is an MS in Computer Science student at Columbia University. He is most familiar with Python and C++, with past development experiences in R, Java, and PHP.  For his most recent internship, he built a system that detects media plagiarism using Python, Flask, and MySQL. In another internship, he utilized customer transaction data to build reactive visualizations and data preprocessing pipelines via Python and Power BI. He was also the development leader of the award-winning project Smartfarm, a system that displays real-time IoT data and assists farm management. He is passionate about technology, and hopes to utilize his software development skills to make the world a better place. 

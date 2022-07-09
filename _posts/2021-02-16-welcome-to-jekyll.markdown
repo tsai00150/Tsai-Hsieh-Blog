@@ -1,29 +1,29 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2021-02-16 19:49:44 +0800
-categories: jekyll update
+title: "AZ-900 Microsoft Azure Fundamentals: How I Passed the Exam Using Microsoft Documentation"
+date: 2020-06-14 00:00:00 +0800
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+* Time for preparation: 2020/4/27~5/19, 23 days
+* Study material: [Microsoft Azure fundamentals learning path](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)
 
-Jekyll requires blog post files to be named according to the following format:
+![]({{ '/assets/20200614/AZ900score.jpg' | relative_url }})
+*Picture: My score*
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## The amount I studied & languages
+As for my preparation, I simply studied the Azure fundamentals learning path by Microsoft and no more.  I finished the last chapter three hours prior to the test and spent the final hour looking through my notes to recap the whole course. That's it. The test doesn't require you to prepare a lot in advance, so it is better to book the test before studying in order to maximize time efficiency. During booking, remember to select the language that fits you most, then change the language; I choose English as my test language, as I tend to read English documentation more quickly, and it is best when **the learning material shares the same language as the test language**. 
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Content you can skip
+It may seem a bit overwhelming, but there are plenty of materials that you can simply skip. For example, there are certain areas that require you to activate a sandbox and play with the tools. While it is useful if you really want to know how Azure works in real life, if your goal is to pass the test, these operations are not likely to appear during the test. At least for me, I didn't encounter any questions that were related to the sandbox. Therefore, what you should really focus on is the services provided by Azure - what is the name, and what does the service do. **The questions usually give you a situation and ask you what service can solve the problem.** Therefore, if you do not have the time to go through every detail, **the sandbox sections can be omitted** in my opinion. 
 
-Jekyll also offers powerful support for code snippets:
+## Active recall - the study method I used
+By the time I start to study for the exam, I was inspired by active recall, which is a very effective learning method. I learned this technique from the youtube video by Ali Abdaal, which you can check out [here](https://www.youtube.com/watch?v=ukLnPbIffxE&t=3s&ab_channel=AliAbdaal). The core idea is that we learn better by getting out information from our brain rather than cramming everything into it. So, things such as teaching others or taking mock tests are helpful because they are using the information you have already known but are not quite organized yet. Basically, what I did is to copy/paste the whole article to Onenote, then highlight the important parts of the article. After reading through the whole article and finishing the problems, I try to construct a mind map through pen and paper, so I get a clear hierarchy of the topic. This strategy works out (at least for me) since I read the chapters just once and crammed the mind maps that I made one hour before the test. 
+![]({{ '/assets/20200614/AZ900-1.jpg' | relative_url }})
+*Picture: A snippet of my notes on Onenote.*
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+![]({{ '/assets/20200614/AZ900-2.png' | relative_url }})
+*Picture: Mind map with pen and paper.*
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Would it be difficult if I have no technical background? 
+I would think for that case, you might need to spend a little extra time on the cloud computing concepts, but not by much. As the percentage goes, it only takes up 20% of the whole exam, and the concepts are also pretty easy to understand, so this shouldn't be a problem. The other 80% are made up of different Azure services and their uses, so this should be the same difficulty for everyone.  
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+> TL;DR: The most important part is to link real-life situations with the Microsoft services. The sandbox parts can all be excluded if you do not have the time. 

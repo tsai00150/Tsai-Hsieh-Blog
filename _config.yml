@@ -28,8 +28,9 @@ github_username: tsai00150
 
 # Build settings
 # theme: minima
-
 plugins:
+  - jekyll-seo-tag
+whitelist:
   - jekyll-seo-tag
 # Exclude from processing.
 # The following items will not be processed, by default.

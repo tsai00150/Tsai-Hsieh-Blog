@@ -180,6 +180,13 @@
   flex: 1;
 }
 
+.resume-content {
+  padding: $spacing-unit 0;
+  margin-right: 25%;
+  margin-left: 25%;
+  flex: 1;
+}
+
 .page-heading {
   @include relative-font-size(2);
 }

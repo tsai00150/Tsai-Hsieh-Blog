@@ -2,4 +2,14 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Gulzar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+$base-font-family: 'Exo 2', sans-serif;
+$base-font-weight: 200;
+$brand-color: #c81313;
+$code-bg: #D5E8ED;
+$link-color: #4265DC;
+.site-header {
+    font-family: 'Alfa Slab One', cursive;
+}
 @import "minima";
